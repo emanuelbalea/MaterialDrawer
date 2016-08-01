@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>MaterialDrawer.Xamarin.Droid</id>
+    <version>5.3.2.0</version>
+    <title>MaterialDrawer.Xamarin.Droid</title>
+    <authors>Mikepenz, EmanuelBalea</authors>
+    <owners />
+    <description>C# bindings for https://github.com/mikepenz/MaterialDrawer</description>
+    <summary />
+    <language>en</language>
+    <licenseUrl>https://github.com/mikepenz/MaterialDrawer/blob/develop/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/emanuelbalea/MaterialDrawer</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <developmentDependency>false</developmentDependency>
+    <copyright>Mikepenz, EmanuelBalea</copyright>
+    <tags>MaterialDrawer, Xamarin, Android</tags>
+    <frameworkAssemblies />
+    <dependencies>
+      <group>
+        <dependency id="AndroidIconics.Xamarin.Droid" version="2.6.6.1" />
+        <dependency id="FastAdapter.Xamarin.Droid" version="1.5.6.0" />
+        <dependency id="Materialize.Xamarin.Droid" version="0.9.0.0" />
+        <dependency id="Xamarin.Android.Support.Animated.Vector.Drawable" version="23.4.0.1" />
+        <dependency id="Xamarin.Android.Support.v4" version="23.4.0.1" />
+        <dependency id="Xamarin.Android.Support.v7.AppCompat" version="23.4.0.1" />
+        <dependency id="Xamarin.Android.Support.v7.RecyclerView" version="23.4.0.1" />
+        <dependency id="Xamarin.Android.Support.Vector.Drawable" version="23.4.0.1" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Projects\MaterialDrawer\bin\Release\MaterialDrawer.dll" target="lib\MonoAndroid403" />
+  </files>
+</package>
