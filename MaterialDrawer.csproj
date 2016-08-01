@@ -33,18 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AndroidIconics, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\AndroidIconics.Xamarin.Droid.2.6.6.1\lib\MonoAndroid403\AndroidIconics.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="FastAdapter, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\FastAdapter.Xamarin.Droid.1.5.6.0\lib\MonoAndroid403\FastAdapter.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Materialize, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Materialize.Xamarin.Droid.0.9.0.0\lib\MonoAndroid403\Materialize.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="Mono.Android" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -55,11 +43,11 @@
   <ItemGroup>
     <None Include="Jars\AboutJars.txt" />
     <None Include="Additions\AboutAdditions.txt" />
-    <LibraryProjectZip Include="Jars\materialdrawer-5.3.2.aar" />
     <None Include="LICENSE" />
     <None Include="MaterialDrawer.nuspec" />
     <None Include="packages.config" />
     <None Include="README.md" />
+    <LibraryProjectZip Include="Jars\materialdrawer-5.3.6.aar" />
   </ItemGroup>
   <ItemGroup>
     <TransformFile Include="Transforms\Metadata.xml" />
