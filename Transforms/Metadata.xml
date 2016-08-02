@@ -16,30 +16,42 @@
   <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='ToggleDrawerItem.ItemFactory']"/>
   <attr path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='BaseSecondaryDrawerItem.BaseViewHolder']" name="visibility">public</attr>
   <attr path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='BasePrimaryDrawerItem.BaseViewHolder']" name="visibility">public</attr>
+  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='AbstractDrawerItem']"/>
   <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='BaseDrawerItem']"/>
   <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='BasePrimaryDrawerItem']"/>
-  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='AbstractDrawerItem']"/>
   <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='BaseViewHolder']"/>
-  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='ContainerViewHolder']"/>
-  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='DividerViewHolder']"/>
-  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='SectionViewHolder']"/>
-  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='ToggleDrawerItem']"/>
-  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='SwitchDrawerItem']"/>
-  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='SectionDrawerItem']"/>
-  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='SecondaryToggleDrawerItem']"/>
-  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='SecondarySwitchDrawerItem']"/>
-  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='SecondaryDrawerItem']"/>
-  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='ProfileSettingDrawerItem']"/>
-  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='ProfileDrawerItem']"/>
-  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='PrimaryDrawerItem']"/>
-  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='MiniProfileDrawerItem']"/>
-  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='MiniDrawerItem']"/>
-  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='ExpandableDrawerItem']"/>
-  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='DividerDrawerItem']"/>
   <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='ContainerDrawerItem']"/>
-  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model.interfaces']/interface[@name='Badgeable']"/>
+  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='DividerDrawerItem']"/>
+  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='ExpandableDrawerItem']"/>
+  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='BaseSecondaryDrawerItem']"/>
+  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='BasePrimaryDrawerItem']"/>
+<!--  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='ContainerViewHolder']"/>-->
+<!--  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='DividerViewHolder']"/>-->
+<!--  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='SectionViewHolder']"/>-->
+<!--  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model.interfaces']/interface[@name='Badgeable']"/>-->
+  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model.interfaces']/interface[@name='IBadgeable']"/>
+  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model.interfaces']/interface[@name='IColorfulBadgeable']"/>
   <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model.interfaces']/interface[@name='IDrawerItem']"/>
-  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model.interfaces']/interface[@name='Nameable']"/>
+  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model.interfaces']/interface[@name='IIconable']"/>
+  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model.interfaces']/interface[@name='INameable']"/>
+  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model.interfaces']/interface[@name='IOnPostBindViewListener']"/>
+  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model.interfaces']/interface[@name='IProfile']"/>
+  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model.interfaces']/interface[@name='ISelectable']"/>
+  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model.interfaces']/interface[@name='ITagable']"/>
+  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model.interfaces']/interface[@name='ITypefaceable']"/>
+  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='MiniDrawerItem']"/>
+  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='MiniProfileDrawerItem']"/>
+  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='PrimaryDrawerItem']"/>
+  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='ProfileDrawerItem']"/>
+  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='ProfileSettingDrawerItem']"/>
+  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='SecondaryDrawerItem']"/>
+  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='SecondarySwitchDrawerItem']"/>
+  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='SecondaryToggleDrawerItem']"/>
+  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='SectionDrawerItem']"/>
+  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='SwitchDrawerItem']"/>
+  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model']/class[@name='ToggleDrawerItem']"/>
+  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model.utils']/class[@name='BadgeDrawableBuilder']"/>
+<!--  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model.interfaces']/interface[@name='Nameable']"/>-->
   <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model.interfaces']/interface[@name='Tagable']"/>
   <remove-node path="/api/package[@name='com.mikepenz.materialdrawer']/class[@name='AccountHeader']"/>
   <remove-node path="/api/package[@name='com.mikepenz.materialdrawer']/class[@name='AccountHeaderBuilder']"/>
@@ -54,9 +66,9 @@
   <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.holder']/class[@name='StringHolder']"/>
   <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.icons']/class[@name='MaterialDrawerFont']"/>
   <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.interfaces']/interface[@name='ICrossfader']"/>
+  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.interfaces']/interface[@name='IOnCheckedChangeListener']"/>
   <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model.interfaces']/interface[@name='Selectable']"/>
   <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model.interfaces']/interface[@name='Typefaceable']"/>
-  <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.model.utils']/class[@name='BadgeDrawableBuilder']"/>
   <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.util']/class[@name='AbstractDrawerImageLoader']"/>
   <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.util']/class[@name='DrawerImageLoader']"/>
   <remove-node path="/api/package[@name='com.mikepenz.materialdrawer.util']/class[@name='DrawerItemViewHelper']"/>

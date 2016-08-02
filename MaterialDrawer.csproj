@@ -36,18 +36,92 @@
     <Reference Include="Mono.Android" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="Xamarin.Android.Support.v4">
+      <HintPath>packages\Xamarin.Android.Support.v4.23.4.0.1\lib\MonoAndroid403\Xamarin.Android.Support.v4.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.Vector.Drawable">
+      <HintPath>packages\Xamarin.Android.Support.Vector.Drawable.23.4.0.1\lib\MonoAndroid403\Xamarin.Android.Support.Vector.Drawable.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.Animated.Vector.Drawable">
+      <HintPath>packages\Xamarin.Android.Support.Animated.Vector.Drawable.23.4.0.1\lib\MonoAndroid403\Xamarin.Android.Support.Animated.Vector.Drawable.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.AppCompat">
+      <HintPath>packages\Xamarin.Android.Support.v7.AppCompat.23.4.0.1\lib\MonoAndroid403\Xamarin.Android.Support.v7.AppCompat.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.RecyclerView">
+      <HintPath>packages\Xamarin.Android.Support.v7.RecyclerView.23.4.0.1\lib\MonoAndroid403\Xamarin.Android.Support.v7.RecyclerView.dll</HintPath>
+    </Reference>
+    <Reference Include="AndroidIconics">
+      <HintPath>packages\AndroidIconics.Xamarin.Droid.2.7.0.1\lib\MonoAndroid403\AndroidIconics.dll</HintPath>
+    </Reference>
+    <Reference Include="Materialize">
+      <HintPath>packages\Materialize.Xamarin.Droid.0.9.0.2\lib\MonoAndroid403\Materialize.dll</HintPath>
+    </Reference>
+    <Reference Include="FastAdapter">
+      <HintPath>packages\FastAdapter.Xamarin.Droid.1.6.0.2\lib\MonoAndroid403\FastAdapter.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.AccountHeader.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.AccountHeaderBuilder.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.BuildConfig.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Drawer.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.DrawerBuilder.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Holder.BadgeStyle.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Holder.ColorHolder.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Holder.DimenHolder.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Holder.ImageHolder.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Holder.StringHolder.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Icons.MaterialDrawerFont.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Interfaces.ICrossfader.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Interfaces.IOnCheckedChangeListener.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.MiniDrawer.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Model.AbstractDrawerItem.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Model.BaseDrawerItem.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Model.BasePrimaryDrawerItem.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Model.BaseViewHolder.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Model.ContainerDrawerItem.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Model.DividerDrawerItem.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Model.ExpandableDrawerItem.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Model.Interfaces.IBadgeable.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Model.Interfaces.IColorfulBadgeable.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Model.Interfaces.IDrawerItem.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Model.Interfaces.IIconable.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Model.Interfaces.INameable.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Model.Interfaces.IOnPostBindViewListener.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Model.Interfaces.IProfile.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Model.Interfaces.ISelectable.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Model.Interfaces.ITagable.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Model.Interfaces.ITypefaceable.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Model.MiniDrawerItem.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Model.MiniProfileDrawerItem.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Model.PrimaryDrawerItem.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Model.ProfileDrawerItem.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Model.ProfileSettingDrawerItem.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Model.SecondaryDrawerItem.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Model.SecondarySwitchDrawerItem.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Model.SecondaryToggleDrawerItem.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Model.SectionDrawerItem.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Model.SwitchDrawerItem.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Model.ToggleDrawerItem.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Model.Utils.BadgeDrawableBuilder.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Util.AbstractDrawerImageLoader.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Util.DrawerImageLoader.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Util.DrawerItemViewHelper.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Util.DrawerUIUtils.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Util.KeyboardUtil.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.Util.PressedEffectStateListDrawable.cs" />
+    <Compile Include="Additions\Com.Mikepenz.Materialdrawer.View.BezelImageView.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Jars\AboutJars.txt" />
     <None Include="Additions\AboutAdditions.txt" />
     <None Include="LICENSE" />
     <None Include="MaterialDrawer.nuspec" />
-    <None Include="packages.config" />
     <None Include="README.md" />
     <LibraryProjectZip Include="Jars\materialdrawer-5.3.6.aar" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <TransformFile Include="Transforms\Metadata.xml" />
@@ -62,4 +136,5 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  <Import Project="packages\Xamarin.Android.Support.Vector.Drawable.23.4.0.1\build\Xamarin.Android.Support.Vector.Drawable.targets" Condition="Exists('packages\Xamarin.Android.Support.Vector.Drawable.23.4.0.1\build\Xamarin.Android.Support.Vector.Drawable.targets')" />
 </Project>
